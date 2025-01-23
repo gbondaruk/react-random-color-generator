@@ -10,19 +10,6 @@ export default function RandomColorBox() {
     <>
       <div
         style={{
-          backgroundColor: initialColor,
-          borderRadius: '20px',
-          height: '25vh',
-          width: '50vw',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        Generated Color:
-      </div>
-      <div
-        style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -38,6 +25,19 @@ export default function RandomColorBox() {
           Generate
         </button>
       </div>
-    </> rancolor
+      <div
+        style={{
+          backgroundColor: initialColor,
+          borderRadius: '20px',
+          height: '25vh',
+          width: '50vw',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        Generated Color: {rancolor}
+      </div>
+    </>
   );
 }
