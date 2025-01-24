@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@upleveled/react-scripts": "5.0.13",
-    "complementary-colors": "^1.0.6",
+    "colord": "^2.9.3",
     "randomcolor": "^0.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
