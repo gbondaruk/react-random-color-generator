@@ -38,6 +38,7 @@ export default function App() {
           color: textColor,
           textShadow: '0.5px 0.5px 1px black',
           margin: '20px',
+          backgroundColor: color,
         }}
       >
         Generated Color: {color}
