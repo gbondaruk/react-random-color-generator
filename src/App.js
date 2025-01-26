@@ -9,6 +9,7 @@ export default function App() {
   const changeColor = () => {
     const newColor = randomColor();
     setColor(newColor);
+    document.body.style.backgroundColor = color;
   };
 
   // Translate random color to invert for text color
