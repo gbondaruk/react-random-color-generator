@@ -32,14 +32,15 @@ export default function App() {
         Generate
       </button>
 
-      <p
+      <div
         style={{
           color: textColor,
           textShadow: '0.5px 0.5px 1px black',
+          margin: '20px',
         }}
       >
         Generated Color: {color}
-      </p>
+      </div>
     </div>
   );
 }
